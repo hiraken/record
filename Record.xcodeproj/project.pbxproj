@@ -21,6 +21,8 @@
 		0D15CB8C1546EB8000DCA89E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D15CB6A1546EB7F00DCA89E /* Foundation.framework */; };
 		0D15CB941546EB8000DCA89E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D15CB921546EB8000DCA89E /* InfoPlist.strings */; };
 		0D15CB971546EB8000DCA89E /* RecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D15CB961546EB8000DCA89E /* RecordTests.m */; };
+		0D15CBA11546ED0E00DCA89E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D15CBA01546ED0E00DCA89E /* AVFoundation.framework */; };
+		0D15CBA31546ED2000DCA89E /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D15CBA21546ED2000DCA89E /* CoreAudio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +40,24 @@
 		0D15CB681546EB7F00DCA89E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0D15CB6A1546EB7F00DCA89E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0D15CB6C1546EB7F00DCA89E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0D15CB701546EB7F00DCA89E /* Record-Info.plist */ = {isa = PBXFileReference; path = "Record-Info.plist"; sourceTree = "<group>"; };
+		0D15CB701546EB7F00DCA89E /* Record-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Record-Info.plist"; sourceTree = "<group>"; };
 		0D15CB721546EB7F00DCA89E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0D15CB741546EB7F00DCA89E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0D15CB761546EB8000DCA89E /* Record-Prefix.pch */ = {isa = PBXFileReference; path = "Record-Prefix.pch"; sourceTree = "<group>"; };
-		0D15CB771546EB8000DCA89E /* _07AppDelegate.h */ = {isa = PBXFileReference; path = _07AppDelegate.h; sourceTree = "<group>"; };
+		0D15CB761546EB8000DCA89E /* Record-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Record-Prefix.pch"; sourceTree = "<group>"; };
+		0D15CB771546EB8000DCA89E /* _07AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _07AppDelegate.h; sourceTree = "<group>"; };
 		0D15CB781546EB8000DCA89E /* _07AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _07AppDelegate.m; sourceTree = "<group>"; };
 		0D15CB7B1546EB8000DCA89E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		0D15CB7E1546EB8000DCA89E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		0D15CB801546EB8000DCA89E /* _07ViewController.h */ = {isa = PBXFileReference; path = _07ViewController.h; sourceTree = "<group>"; };
+		0D15CB801546EB8000DCA89E /* _07ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _07ViewController.h; sourceTree = "<group>"; };
 		0D15CB811546EB8000DCA89E /* _07ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _07ViewController.m; sourceTree = "<group>"; };
 		0D15CB881546EB8000DCA89E /* RecordTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecordTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D15CB891546EB8000DCA89E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		0D15CB911546EB8000DCA89E /* RecordTests-Info.plist */ = {isa = PBXFileReference; path = "RecordTests-Info.plist"; sourceTree = "<group>"; };
+		0D15CB911546EB8000DCA89E /* RecordTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RecordTests-Info.plist"; sourceTree = "<group>"; };
 		0D15CB931546EB8000DCA89E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0D15CB951546EB8000DCA89E /* RecordTests.h */ = {isa = PBXFileReference; path = RecordTests.h; sourceTree = "<group>"; };
+		0D15CB951546EB8000DCA89E /* RecordTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordTests.h; sourceTree = "<group>"; };
 		0D15CB961546EB8000DCA89E /* RecordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordTests.m; sourceTree = "<group>"; };
+		0D15CBA01546ED0E00DCA89E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0D15CBA21546ED2000DCA89E /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D15CBA31546ED2000DCA89E /* CoreAudio.framework in Frameworks */,
+				0D15CBA11546ED0E00DCA89E /* AVFoundation.framework in Frameworks */,
 				0D15CB691546EB7F00DCA89E /* UIKit.framework in Frameworks */,
 				0D15CB6B1546EB7F00DCA89E /* Foundation.framework in Frameworks */,
 				0D15CB6D1546EB7F00DCA89E /* CoreGraphics.framework in Frameworks */,
@@ -83,6 +89,8 @@
 		0D15CB591546EB7F00DCA89E = {
 			isa = PBXGroup;
 			children = (
+				0D15CBA21546ED2000DCA89E /* CoreAudio.framework */,
+				0D15CBA01546ED0E00DCA89E /* AVFoundation.framework */,
 				0D15CB6E1546EB7F00DCA89E /* Record */,
 				0D15CB8F1546EB8000DCA89E /* RecordTests */,
 				0D15CB671546EB7F00DCA89E /* Frameworks */,
